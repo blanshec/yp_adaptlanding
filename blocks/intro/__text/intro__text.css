@@ -1,0 +1,13 @@
+@import url(./_theme/_bold/intro__text_bold.css);
+
+.intro__text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+    max-width: 683px;
+    margin: 0;
+}

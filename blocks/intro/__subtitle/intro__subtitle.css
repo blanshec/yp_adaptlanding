@@ -1,0 +1,10 @@
+.intro__subtitle {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 37px;
+
+    color: #FFFFFF;
+
+    margin: 45px 0 35px;
+}
