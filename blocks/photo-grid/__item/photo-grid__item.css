@@ -1,0 +1,9 @@
+@import url(./__theme/photo-grid__item:hover.css);
+
+.photo-grid__item {
+    padding: 8px;
+    width: 284px;
+    height: 188px;
+
+    transition: transform .27s ease-in;
+}

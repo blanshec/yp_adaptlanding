@@ -11,3 +11,7 @@
     max-width: 683px;
     margin: 0;
 }
+
+.intro__text:first-child {
+    margin: 0 20px 0 0;
+}

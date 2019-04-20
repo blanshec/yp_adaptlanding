@@ -1,0 +1,4 @@
+.photo-grid__item:hover {
+    z-index: 10;
+    transform: scale(1.1);
+}

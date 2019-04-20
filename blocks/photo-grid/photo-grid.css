@@ -1,0 +1,11 @@
+@import url(./__item/photo-grid__item.css);
+
+.photo-grid {
+    margin: 80px auto 0;
+    box-sizing: content-box;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}

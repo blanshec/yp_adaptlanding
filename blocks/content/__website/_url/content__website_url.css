@@ -1,0 +1,9 @@
+.content__website_url {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 30px;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}

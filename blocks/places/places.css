@@ -1,0 +1,13 @@
+@import url(./__image/places__image.css);
+@import url(./__paragraph/places__paragraph.css);
+@import url(./__place/places__place.css);
+@import url(./__title/places__title.css);
+
+.places {
+    margin: 80px auto 0;
+    max-width: 985px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
