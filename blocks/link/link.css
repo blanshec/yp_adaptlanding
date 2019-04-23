@@ -1,0 +1,6 @@
+@import url(./:hover/link:hover.css);
+
+.link {
+    color: #ffffff;
+    transition: opacity .3s ease-in-out;
+}

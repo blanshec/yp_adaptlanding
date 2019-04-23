@@ -12,10 +12,12 @@
 <body>
     <main class="page">
         <header class="header">
-            <img class="header__logo" src="/images/logo.svg" alt="Логотип. Путешествия по России" />
+            <a class="link">
+                <img class="header__logo" src="/images/logo.svg" alt="Логотип. Путешествия по России" />
+            </a>
             <ul class="header__languages">
-                <li class="header__lang header__lang_selected" value="ru">Ru</li>
-                <li class="header__lang" value="en">En</li>
+                <li class="header__lang header__lang_selected" value="ru"><a class="link" href="#">Ru</a></li>
+                <li class="header__lang" value="en"><a class="link" href="#">En</a></li>
             </ul>
         </header>
         <section class="lead">
@@ -72,7 +74,7 @@
                 <h2 class="places__title">Куршская коса</h2>
                 <div class="content__website">
                     <p class="content__website_url-heading">URL</p>
-                    <a class="content__website_url" href="https://www.park-kosa.ru">park-kosa.ru</a>
+                    <a class="content__website_url link" href="https://www.park-kosa.ru">park-kosa.ru</a>
                 </div>
                 <img class="places__image" src="/images/places__place/kur-kosa.png" alt="Куршская коса">
                 <div class="places__content">
@@ -95,8 +97,8 @@
                 <h2 class="places__title">Кольский</h2>
                 <div class="places__website">
                     <p class="content__website_url-heading">URL</p>
-                    <a class="content__website_url"
-                        href="http://www.nat-geo.ru/phototour/1222319-fototur-na-kolskiy-s-andreem-kamenevym-kak-eto-bylo/">National
+                    <a class="content__website_url link"
+                        href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
                         Georaphic</a>
                 </div>
                 <img class="places__image" src="/images/places__place/kolski.png" alt="Кольский">
@@ -119,7 +121,8 @@
                 <h2 class="places__title">Алтай</h2>
                 <div class="places__website">
                     <p class="content__website_url-heading">URL</p>
-                    <a class="content__website_url" href="https://ru-ru.facebook.com/altairegion22/">Facebook</a>
+                    <a class="content__website_url link"
+                        href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
                 </div>
                 <img class="places__image" src="/images/places__place/altai.png" alt="Алтай">
                 <div class="places__content">
@@ -141,7 +144,7 @@
                 <h2 class="places__title">Зимний Байкал</h2>
                 <div class="places__website">
                     <p class="content__website_url-heading">URL</p>
-                    <a class="content__website_url" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+                    <a class="content__website_url link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
                 </div>
                 <img class="places__image" src="/images/places__place/baikal.png" alt="Зимний Байкал">
                 <div class="places__content">
@@ -162,7 +165,7 @@
                 <h2 class="places__title">Карелия</h2>
                 <div class="places__website">
                     <p class="content__website_url-heading">URL</p>
-                    <a class="content__website_url" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
+                    <a class="content__website_url link" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
                 </div>
                 <img class="places__image" src="/images/places__place/karelia.png" alt="Карелия">
                 <div class="places__content">
@@ -187,26 +190,38 @@
                 Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования
             </h3>
             <div class="video__container">
-                <div class="video__item">
-                    <div class="video__icon_play"></div>
-                    <p class="video__duration">6:30</p>
-                    <h4 class="video__title">
-                        Colors of Kamchatka
-                    </h4>
-                    <h5 class="video__subtitle">
-                        Director: Pavel Karykhalin
-                    </h5>
-                </div>
-                <div class="video__item">
-                    <div class="video__icon_play"></div>
-                    <p class="video__duration">24:45</p>
-                    <h4 class="video__title">
-                        Обсерватория | Observatory
-                    </h4>
-                    <h5 class="video__subtitle">
-                        Director: Alexander Khudokon
-                    </h5>
-                </div>
+                <a href="https://vimeo.com/81106671">
+                    <div class="video__item">
+                        <div class="video__tint">
+                            <img class="video__background" src="./images/video-bg/kamchatka.png"
+                                alt="Видео-превью. Камчатка">
+                        </div>
+                        <div class="video__icon_play"></div>
+                        <p class="video__duration">6:30</p>
+                        <h4 class="video__title">
+                            Colors of Kamchatka
+                        </h4>
+                        <h5 class="video__subtitle">
+                            Director: Pavel Karykhalin
+                        </h5>
+                    </div>
+                </a>
+                <a href="https://vimeo.com/290675450">
+                    <div class="video__item">
+                        <div class="video__tint">
+                            <img class="video__background" src="./images/video-bg/observatory.png"
+                                alt="Видео-превью. Обсерватория">
+                        </div>
+                        <div class="video__icon_play"></div>
+                        <p class="video__duration">24:45</p>
+                        <h4 class="video__title">
+                            Обсерватория | Observatory
+                        </h4>
+                        <h5 class="video__subtitle">
+                            Director: Alexander Khudokon
+                        </h5>
+                    </div>
+                </a>
             </div>
         </section>
         <section class="additional">
@@ -322,12 +337,12 @@
             </div>
         </section>
         <footer class="footer">
-            <a class="footer__link" href="">Карты</a>
-            <a class="footer__link" href="">Погода</a>
-            <a class="footer__link" href="">Расписание</a>
-            <a class="footer__link" href="">Календарь</a>
-            <a class="footer__link" href="">Путешествия</a>
-            <p class="footer__copyright">&copy; 2019. Абдуршина Алина</p>
+            <a class="link footer__link" href="">Карты</a>
+            <a class="link footer__link" href="">Погода</a>
+            <a class="link footer__link" href="">Расписание</a>
+            <a class="link footer__link" href="">Календарь</a>
+            <a class="link footer__link" href="">Путешествия</a>
+            <p class="link footer__copyright">&copy; 2019. Абдуршина Алина</p>
         </footer>
     </main>
 </body>

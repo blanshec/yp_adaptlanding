@@ -7,6 +7,7 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/video/video.css);
+@import url(../blocks/link/link.css);
 
 .page {
     position: absolute;

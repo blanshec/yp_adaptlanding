@@ -3,6 +3,9 @@
     font-size: 72px;
     line-height: 78px;
     text-align: center;
+    align-self: center;
+
+    margin: 0 0 48px 0;
 
     color: #FFFFFF;
     width: 800px;

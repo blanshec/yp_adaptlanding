@@ -1,5 +1,7 @@
 .video__item {
-    background-color: rebeccapurple;
     width: 583px;
     height: 323px;
+
+    position: relative;
+    overflow: hidden;
 }
