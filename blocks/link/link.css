@@ -1,7 +1,7 @@
 @import url(./:hover/link:hover.css);
+@import url(./_theme/_undec/link_undec.css);
 
 .link {
-    color: inherit;
+    color: #ffffff;
     transition: opacity .3s ease-in-out;
-    text-decoration: none;
 }

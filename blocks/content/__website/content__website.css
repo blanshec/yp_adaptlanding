@@ -6,4 +6,6 @@
     margin: 0 0 60px 0;
 
     grid-area: website;
+
+    max-width: 282px;
 }

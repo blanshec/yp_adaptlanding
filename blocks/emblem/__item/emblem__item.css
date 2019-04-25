@@ -1,0 +1,8 @@
+.emblem__item {
+    width: 208px;
+    height: 310px;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}

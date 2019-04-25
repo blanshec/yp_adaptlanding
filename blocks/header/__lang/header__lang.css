@@ -1,9 +1,13 @@
+@import url(./__lang/_theme/header__lang_selected.css);
+
 .header__lang {
     font-weight: lighter;
     font-family: Inter;
     font-size: 24px;
     line-height: 23px;
     text-align: right;
+
+    text-decoration: none;
     
 
     color: #FFFFFF;

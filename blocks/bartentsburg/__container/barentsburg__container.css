@@ -1,0 +1,6 @@
+.barentsburg__container {
+    display: flex;
+    flex-direction: row;
+
+    margin: 48px 0 0;
+}

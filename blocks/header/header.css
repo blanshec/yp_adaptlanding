@@ -1,7 +1,7 @@
 @import url(./__logo/header__logo.css);
 @import url(./__languages/header__languages.css);
 @import url(./__lang/header__lang.css);
-@import url(./__lang/_theme/header__lang_selected.css);
+
 
 .header {
     height: 52px;

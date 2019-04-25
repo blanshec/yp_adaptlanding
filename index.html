@@ -16,8 +16,8 @@
                 <img class="header__logo" src="/images/logo.svg" alt="Логотип. Путешествия по России" />
             </a>
             <ul class="header__languages">
-                <li class="header__lang header__lang_selected" value="ru"><a class="link" href="#">Ru</a></li>
-                <li class="header__lang" value="en"><a class="link" href="#">En</a></li>
+                <li class="header__lang" value="ru"><a class="link" href="#">Ru</a></li>
+                <li class="header__lang" value="en"><a class="link link_undec" href="#">En</a></li>
             </ul>
         </header>
         <section class="lead">
@@ -193,33 +193,33 @@
                 <a href="https://vimeo.com/81106671">
                     <div class="video__item">
                         <div class="video__tint">
-                            <img src="./images/video-bg/kamchatka.png"
-                                alt="Видео-превью. Камчатка">
+                            <img src="./images/video-bg/kamchatka.png" alt="Видео-превью. Камчатка">
+
+                            <div class="video__icon_play"></div>
+                            <p class="video__duration">6:30</p>
+                            <h4 class="video__title">
+                                Colors of Kamchatka
+                            </h4>
+                            <h5 class="video__subtitle">
+                                Director: Pavel Karykhalin
+                            </h5>
                         </div>
-                        <div class="video__icon_play"></div>
-                        <p class="video__duration">6:30</p>
-                        <h4 class="video__title">
-                            Colors of Kamchatka
-                        </h4>
-                        <h5 class="video__subtitle">
-                            Director: Pavel Karykhalin
-                        </h5>
                     </div>
                 </a>
                 <a href="https://vimeo.com/290675450">
                     <div class="video__item">
                         <div class="video__tint">
-                            <img src="./images/video-bg/observatory.png"
-                                alt="Видео-превью. Обсерватория">
+                            <img src="./images/video-bg/observatory.png" alt="Видео-превью. Обсерватория">
+
+                            <div class="video__icon_play"></div>
+                            <p class="video__duration">24:45</p>
+                            <h4 class="video__title">
+                                Обсерватория | Observatory
+                            </h4>
+                            <h5 class="video__subtitle">
+                                Director: Alexander Khudokon
+                            </h5>
                         </div>
-                        <div class="video__icon_play"></div>
-                        <p class="video__duration">24:45</p>
-                        <h4 class="video__title">
-                            Обсерватория | Observatory
-                        </h4>
-                        <h5 class="video__subtitle">
-                            Director: Alexander Khudokon
-                        </h5>
                     </div>
                 </a>
             </div>
@@ -303,57 +303,71 @@
             </div>
         </section>
         <section class="cover">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <h3 class="cover__subtitle">
-                По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.
-            </h3>
+            <div class="cover__tint">
+                <img class="cover__image" src="./images/cover.png">
+
+                <a class="cover__container" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+                    <h2 class="cover__title">До Байкала «на собаках»</h2>
+                    <h3 class="cover__subtitle">
+                        По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на
+                        электричках.
+                    </h3>
+                </a>
+            </div>
         </section>
         <section class="emblem">
             <h2 class="emblem__title">
                 Природа на гербах российских городов
             </h2>
-            <div class="emblem__item">
-                <img class="emblem__image" src="/images/emblem/novgorod.png" alt="Герб. Великий Новгород">
-                <p class="emblem__city">Великий Новгород</p>
-            </div>
-            <div class="emblem__item">
-                <img class="emblem__image" src="/images/emblem/rostov.png" alt="Герб. Ростов Великий">
-                <p class="emblem__city">Ростов Великий</p>
-            </div>
-            <div class="emblem__item">
-                <img class="emblem__image" src="/images/emblem/tambov.png" alt="Герб. Тамбов">
-                <p class="emblem__city">Тамбов</p>
-            </div>
-            <div class="emblem__item">
-                <img class="emblem__image" src="/images/emblem/elabuga.png" alt="Герб. Елабуга">
-                <p class="emblem__city">Елабуга</p>
-            </div>
-            <div class="emblem__item">
-                <img class="emblem__image" src="/images/emblem/prem.png" alt="Герб. Пермь">
-                <p class="emblem__city">Пермь</p>
+            <div class="emblem__container">
+                <div class="emblem__item">
+                    <img class="emblem__image" src="/images/emblem/novgorod.png" alt="Герб. Великий Новгород">
+                    <p class="emblem__city">Великий Новгород</p>
+                </div>
+                <div class="emblem__item">
+                    <img class="emblem__image" src="/images/emblem/rostov.png" alt="Герб. Ростов Великий">
+                    <p class="emblem__city">Ростов Великий</p>
+                </div>
+                <div class="emblem__item">
+                    <img class="emblem__image" src="/images/emblem/tambov.png" alt="Герб. Тамбов">
+                    <p class="emblem__city">Тамбов</p>
+                </div>
+                <div class="emblem__item">
+                    <img class="emblem__image" src="/images/emblem/elabuga.png" alt="Герб. Елабуга">
+                    <p class="emblem__city">Елабуга</p>
+                </div>
+                <div class="emblem__item">
+                    <img class="emblem__image" src="/images/emblem/prem.png" alt="Герб. Пермь">
+                    <p class="emblem__city">Пермь</p>
+                </div>
             </div>
         </section>
         <section class="barentsburg">
             <h2 class="barentsburg__title">Баренцбург</h2>
             <p class="barentsburg__coord">78.0648° с.ш. 14.2335° в.д.</p>
-            <div class="barentsburg__map">
-
-            </div>
-            <p class="barentsburg__text">
-                Арктика и соседство с Норвегией — мало кто знает о жизни
-                самого западного российского посёлка, который находится на Шпицбергене.
-            </p>
-            <div class="content__website">
-                <p class="content__website_url-heading">URL</p>
-                <a class="content__website_url" href="">Умереть или родиться здесь практически невозможно</a>
+            <img class="barentsburg__map" src="./images/__map.png" alt="Карта. Баренцбург" />
+            <div class="barentsburg__container">
+                <p class="barentsburg__text">
+                    Арктика и соседство с Норвегией — мало кто знает о жизни
+                    самого западного российского посёлка, который находится на Шпицбергене.
+                </p>
+                <div class="content__website">
+                    <p class="content__website_url-heading">URL</p>
+                    <a class="content__website_url link"
+                        href="https://meduza.io/feature/2016/03/02/umeret-ili-roditsya-zdes-prakticheski-nevozmozhno">Умереть
+                        или родиться здесь практически невозможно</a>
+                </div>
             </div>
         </section>
         <footer class="footer">
-            <a class="link footer__link" href="">Карты</a>
-            <a class="link footer__link" href="">Погода</a>
-            <a class="link footer__link" href="">Расписание</a>
-            <a class="link footer__link" href="">Календарь</a>
-            <a class="link footer__link" href="">Путешествия</a>
+            <ul class="footer__list">
+                <li class="footer__link"><a class="link link_undec" href="https://yandex.ru/maps">Карты</a></li>
+                <li class="footer__link"><a class="link link_undec" href="https://yandex.ru/pogoda">Погода</a></li>
+                <li class="footer__link"><a class="link link_undec" href="https://rasp.yandex.ru">Расписание</a></li>
+                <li class="footer__link"><a class="link link_undec" href="https://calendar.yandex.ru/">Календарь</a>
+                </li>
+                <li class="footer__link"><a class="link link_undec" href="https://travel.yandex.ru">Путешествия</a></li>
+            </ul>
             <p class="link footer__copyright">&copy; 2019. Абдуршина Алина</p>
         </footer>
     </main>
