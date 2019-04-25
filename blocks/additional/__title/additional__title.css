@@ -1,0 +1,15 @@
+.additional__title {
+    position: absolute;
+    top: 30px;
+    left: 18px;
+
+    width: 248px;
+
+    margin: 0;
+
+    font-family: Inter;
+    font-size: 27px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}

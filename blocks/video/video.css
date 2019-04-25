@@ -7,7 +7,6 @@
 @import url(./__item/video__item.css);
 @import url(./__subtitle/video__subtitle.css);
 @import url(./__title/video__title.css);
-@import url(./__background/video__background.css);
 @import url(./__tint/video__tint.css);
 
 .video {
@@ -15,5 +14,5 @@
     flex-direction: column;
 
     width: 1184px;
-    margin: 0 auto;
+    margin: 30px auto 0;
 }

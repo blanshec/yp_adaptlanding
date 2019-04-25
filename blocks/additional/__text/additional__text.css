@@ -1,0 +1,16 @@
+.additional__text {
+    position: absolute;
+    bottom: 30px;
+    left: 18px;
+
+    width: 248px;
+
+    margin: 0;
+
+    font-weight: lighter;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}

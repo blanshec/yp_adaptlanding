@@ -1,0 +1,17 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+
+    width: 1184px;
+    height: 594px;
+
+    margin: 102px auto 0;
+
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+        url(../../images/cover.png);
+}

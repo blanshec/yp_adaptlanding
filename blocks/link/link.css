@@ -1,6 +1,7 @@
 @import url(./:hover/link:hover.css);
 
 .link {
-    color: #ffffff;
+    color: inherit;
     transition: opacity .3s ease-in-out;
+    text-decoration: none;
 }
