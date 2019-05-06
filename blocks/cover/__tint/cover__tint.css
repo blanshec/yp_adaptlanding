@@ -1,4 +1,4 @@
-@import url(./:hover/cover__tint:hover.css);
+@import url(./_hover/cover__tint_hover.css);
 
 .cover__tint::before {
     content: "";

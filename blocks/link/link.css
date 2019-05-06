@@ -1,4 +1,4 @@
-@import url(./:hover/link:hover.css);
+@import url(./_hover/link_hover.css);
 @import url(./_theme/_undec/link_undec.css);
 
 .link {
