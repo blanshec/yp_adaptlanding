@@ -1,7 +1,8 @@
 .cover__container {
     position: absolute;
     top: 274px;
+    left: 38px;
     text-decoration: none;
 
-    align-self: center;
+    width: 1095px;
 }

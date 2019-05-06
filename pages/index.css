@@ -15,8 +15,10 @@
 @import url(../blocks/bartentsburg/barentsburg.css);
 @import url(../blocks/footer/footer.css);
 
-.page {
-    position: absolute;
-    max-width: 1440px;
+body {
     background-color: #2A2C2F;
+}
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
 }
