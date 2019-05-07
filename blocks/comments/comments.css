@@ -11,3 +11,38 @@
     width: 1184px;
     margin: 100px auto 0;
 }
+
+@media screen and (max-width: 1441px) {
+    .comments {
+        width: 1184px;
+        margin: 100px auto 0;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .comments {
+        width: 928px;
+        margin: 100px auto 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .comments {
+        max-width: 640px;
+        margin: 100px auto 0;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .comments {
+        max-width: 343px;
+        margin: 100px auto 0;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .comments {
+        max-width: 288px;
+        margin: 100px auto 0;
+    }
+}

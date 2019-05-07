@@ -12,3 +12,43 @@
     flex-direction: column;
     align-content: center;
 }
+
+@media screen and (max-width: 1441px) {
+    .intro {
+        width: 985px;
+
+        margin: 80px auto 0;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .intro {
+        width: 985px;
+
+        margin: 80px auto 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .intro {
+        width: 985px;
+
+        margin: 80px auto 0;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .intro {
+        width: 985px;
+
+        margin: 80px auto 0;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .intro {
+        max-width: 288px;
+
+        margin: 80px auto 0;
+    }
+}
