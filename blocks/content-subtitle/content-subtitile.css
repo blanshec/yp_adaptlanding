@@ -1,12 +1,18 @@
 .content-subtitle {
     font-family: Inter;
     font-weight: lighter;
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 1.5em;
+    line-height: 2.125em;
     text-align: center;
     align-self: center;
 
     margin: 0 0 72px 0;
 
     color: #FFFFFF;
+}
+@media screen and (max-width: 321px) {
+    .content-subtitle {
+        font-size: 1rem;
+        line-height: 1.438em;
+    }
 }

@@ -2,6 +2,7 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__tint/cover__tint.css);
+@import url(./__image/cover__image.css);
 
 .cover {
     display: flex;
@@ -11,4 +12,9 @@
     margin: 102px auto 0;
 
     position: relative;
+}
+@media screen and (max-width: 321px) {
+    .cover {
+        width: 320px;
+    }
 }

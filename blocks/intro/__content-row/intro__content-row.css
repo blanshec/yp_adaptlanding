@@ -4,3 +4,9 @@
     
     margin: 0 0 35px 0;
 }
+
+@media screen and (max-width: 321px) {
+    .intro__content-row {
+        flex-direction: column-reverse;
+    }
+}
