@@ -1,10 +1,16 @@
 .places__paragraph {
     font-family: Inter;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: lighter;
-    line-height: 30px;
+    line-height: 1.875rem;
 
     color: #FFFFFF;
 
     margin-top: 0px;
+}
+@media screen and (max-width: 321px) {
+    .places__paragraph {
+        max-width: 90%;
+        margin: 24px auto 0;
+    }
 }

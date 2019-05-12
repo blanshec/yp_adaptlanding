@@ -7,3 +7,12 @@
 
     color: #FFFFFF;
 }
+
+@media sceen and (max-width: 321px) {
+    .content__website_url {
+        
+
+        font-size: 1.125rem;
+        line-height: 1.875rem;
+    }
+}

@@ -11,3 +11,9 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+@media screen and (max-width: 321px) {
+    .video__icon_play {
+        top: 16px;
+        left: 16px;
+    }
+}

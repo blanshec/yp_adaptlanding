@@ -9,3 +9,12 @@
 
     grid-area: title;
 }
+@media screen and (max-width: 321px) {
+    .places__title {
+        font-size: 2rem;
+        line-height: 2.188em;
+
+        margin: 0 auto;
+        width: 90%;
+    }
+}

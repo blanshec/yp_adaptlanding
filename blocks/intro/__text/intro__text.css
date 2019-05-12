@@ -18,3 +18,21 @@
 .intro__text:first-child {
     margin: 0 20px 0 0;
 }
+
+@media screen and (max-width: 321px) {
+    .intro__text {
+        font-size: 1.125em;
+        line-height: 1.875em;
+
+        margin: 24px 0 0;
+    }
+    .intro__text:first-child {
+        margin: 24px 0 0;
+        font-size: 0.625em;
+        line-height: 1rem;
+    }
+    .intro  > .intro__text:last-child{
+        font-size: 0.750em;
+        line-height: 1.188em;
+    }
+}

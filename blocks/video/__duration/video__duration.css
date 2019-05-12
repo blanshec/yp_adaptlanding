@@ -6,10 +6,13 @@
     margin: 0;
 
     font-family: Inter;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: lighter;
-    line-height: 13px;
+    line-height: 0.8125rem;
     letter-spacing: 0.3em;
 
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 321px) {
 }

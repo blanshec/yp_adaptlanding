@@ -3,6 +3,6 @@
 }
 @media screen and (max-width: 321px) {
     .header__logo {
-        height: 42px;
+        height: calc(100% - 19.2%);
     }
 }

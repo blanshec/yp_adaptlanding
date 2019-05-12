@@ -1,4 +1,8 @@
 .video__image {
     width: 100%;
-    height: auto;
+}
+@media screen and (max-width: 321px) {
+    .video__image {
+        height: 192px;
+    }
 }

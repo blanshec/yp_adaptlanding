@@ -9,16 +9,18 @@
 @import url(./__title/video__title.css);
 @import url(./__tint/video__tint.css);
 @import url(./__image/video__image.css);
+@import url(./__header/video__header.css);
 
 .video {
     display: flex;
     flex-direction: column;
 
     width: 1184px;
-    margin: 30px auto 0;
+    margin: 102px auto 0;
 }
 @media screen and (max-width: 321px) {
     .video {
-        width: 321px;
+        width: 100%;
+        margin: 64px auto 0;
     }
 }

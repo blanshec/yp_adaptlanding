@@ -14,5 +14,9 @@
     .content-subtitle {
         font-size: 1rem;
         line-height: 1.438em;
+
+        margin: 0 0 24px 0;
+
+        width: 90%;
     }
 }

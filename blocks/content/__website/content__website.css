@@ -9,3 +9,11 @@
 
     max-width: 282px;
 }
+
+@media screen and (max-width: 321px) {
+    .content__website {
+        height: 100%;
+        margin: 0 auto 32px ;
+        width: 90%;
+    }
+}

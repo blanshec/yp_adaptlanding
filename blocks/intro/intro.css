@@ -4,7 +4,7 @@
 @import url(./__text/intro__text.css);
 
 .intro {
-    width: 985px;
+    width: 90%;
 
     margin: 80px auto 0;
 
@@ -13,9 +13,9 @@
     align-content: center;
 }
 
-@media screen and (max-width: 1441px) {
+@media screen and (min-width: 1440px) {
     .intro {
-        width: 985px;
+        width: 90%;
 
         margin: 80px auto 0;
     }
@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 1025px) {
     .intro {
-        width: 985px;
+        width: 90%;
 
         margin: 80px auto 0;
     }
@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 769px) {
     .intro {
-        width: 985px;
+        width: 90%;
 
         margin: 80px auto 0;
     }
@@ -39,7 +39,7 @@
 
 @media screen and (max-width: 376px) {
     .intro {
-        width: 985px;
+        max-width: 90%;
 
         margin: 80px auto 0;
     }
@@ -47,8 +47,8 @@
 
 @media screen and (max-width: 321px) {
     .intro {
-        max-width: 288px;
+        max-width: 90%;
 
-        margin: 80px auto 0;
+        margin: 67px auto 0;
     }
 }

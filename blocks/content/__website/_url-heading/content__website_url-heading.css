@@ -10,3 +10,11 @@
     margin: 0 0 12px;
 
 }
+@media screen and (max-width: 321px) {
+    .content__website_url-heading {
+        margin: 0 0 8px;
+
+        font-size: 0.75rem;
+        line-height: 1.25rem;
+    }
+}
