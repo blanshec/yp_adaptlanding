@@ -14,6 +14,8 @@
 }
 @media screen and (max-width: 321px) {
     .barentsburg {
-        width: 320px;
+        width: 100%;
+
+        margin: 64px auto 0;
     }
 }

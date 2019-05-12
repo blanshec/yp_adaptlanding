@@ -14,3 +14,10 @@
 
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 321px) {
+    .additional__text {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+}

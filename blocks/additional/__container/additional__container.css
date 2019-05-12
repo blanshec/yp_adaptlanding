@@ -6,5 +6,6 @@
 @media screen and (max-width: 321px) {
     .additional__container {
         flex-direction: column;
+        justify-content: space-between;
     }
 }

@@ -1,5 +1,10 @@
 .barentsburg__map {
     width: 100%;
-    padding-bottom: 100%;
     margin: 48px 0 0;
+}
+
+@media screen and (max-width: 321px) {
+    .barentsburg__map {
+        margin: 16px 0 0;
+    }
 }

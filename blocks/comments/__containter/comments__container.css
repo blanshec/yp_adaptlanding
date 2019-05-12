@@ -4,13 +4,13 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 421px) {
     .comments__container {
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 }
 @media screen and (max-width: 321px) {
     .comments__container {
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 }

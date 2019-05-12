@@ -13,5 +13,9 @@
     color: #FFFFFF;
 }
 @media screen and (max-width: 321px) {
-
+    .video__subtitle {
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
 }

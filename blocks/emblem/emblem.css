@@ -12,3 +12,11 @@
 
     margin: 82px auto 0;
 }
+@media screen and (max-width: 321px) {
+    .emblem {
+        width: 100%;
+        margin: 64px auto 0;
+
+        align-content: center;
+    }
+}

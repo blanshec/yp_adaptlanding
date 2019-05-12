@@ -12,7 +12,7 @@
     margin: 100px auto 0;
 }
 
-@media screen and (max-width: 1441px) {
+@media screen and (min-width: 1439px) {
     .comments {
         width: 1184px;
         margin: 100px auto 0;
@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 321px) {
     .comments {
-        max-width: 288px;
-        margin: 100px auto 0;
+        max-width: 100%;
+        margin: 64px auto 0;
     }
 }

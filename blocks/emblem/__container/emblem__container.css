@@ -6,3 +6,9 @@
 
     margin: 82px 0 0;
 }
+
+@media screen and (max-width: 321px) {
+    .emblem__container {
+        margin: 32px 0 0;
+    }
+}

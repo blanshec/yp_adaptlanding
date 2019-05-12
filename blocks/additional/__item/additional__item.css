@@ -2,3 +2,13 @@
     position: relative;
     overflow: hidden;
 }
+
+@media screen and (max-width: 321px) {
+    .additional__item {
+        width: 284px;
+        margin: 0 auto 24px;
+    }
+    .additional__item:last-child {
+        margin: 0 auto 0;
+    }
+}

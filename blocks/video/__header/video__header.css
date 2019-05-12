@@ -8,11 +8,14 @@
 
 @media screen and (max-width: 321px) {
     .video__header {
+        margin: 0 auto 0;
+        position: absolute;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
 
         bottom: 16px;
+        left: 16px;
     }
 
 }

@@ -1,9 +1,11 @@
-.emblem__item {
+.emblem__city {
     font-family: Inter;
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 1.5rem;
+    line-height: 1.625rem;
     text-align: center;
 
     color: #CCCCCC;
+
+    margin: 35px 0 0;
 
 }

@@ -1,8 +1,12 @@
 .comments__quote {
     font-family: Inter;
     font-weight: lighter;
-    font-size: 14px;
-    line-height: 23px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
 
     color: #FFFFFF;
+
+    margin: 0 0 24px 0;
+
+    order: 3;
 }

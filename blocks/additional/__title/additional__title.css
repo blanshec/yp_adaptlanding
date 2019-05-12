@@ -8,8 +8,15 @@
     margin: 0;
 
     font-family: Inter;
-    font-size: 27px;
-    line-height: 29px;
+    font-size: 1.6875rem;
+    line-height: 1.8125rem;
 
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 321px) {
+    .additional__title {
+        font-size: 1.5rem;
+        line-height: 1.625rem;
+    }
 }

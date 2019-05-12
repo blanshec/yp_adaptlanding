@@ -15,4 +15,9 @@
 }
 
 @media screen and (max-width: 321px) {
+    .video__duration {
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
 }
