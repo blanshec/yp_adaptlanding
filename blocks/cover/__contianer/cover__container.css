@@ -6,6 +6,13 @@
 
     width: 1095px;
 }
+@media screen and (max-width: 376px) {
+    .cover__container {
+        width: 100%;
+        top: 64px;
+        left: 0;
+    }
+}
 @media screen and (max-width: 321px) {
     .cover__container {
         width: 100%;

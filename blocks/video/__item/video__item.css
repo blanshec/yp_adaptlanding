@@ -1,8 +1,33 @@
 .video__item {
-    width: 583px;
-    height: 323px;
-
     position: relative;
+}
+@media screen and (max-width: 1441) {
+    .video__item {
+        width: 100%;
+        height: 323px;
+    }
+    .video__item:first-child {
+        margin: 0 16px 0 0;
+    }
+}
+@media screen and (max-width: 769px) {
+    .video__item {
+        width: 100%;
+        height: 200px;
+    }
+    .video__item:first-child {
+        margin: 0 16px 0 0;
+    }
+}
+@media screen and (max-width: 426px) {
+    .video__item {
+        margin: 0 auto 0;
+        width: 90%;
+        height: 200px;
+    }
+    .video__item:first-child {
+        margin: 0 auto 8px;
+    }
 }
 @media screen and (max-width: 321px) {
     .video__item {

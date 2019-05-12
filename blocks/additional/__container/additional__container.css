@@ -3,7 +3,14 @@
     flex-direction: row;
     justify-content: space-between;
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 769px) {
+    .additional__container {
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 426px) {
     .additional__container {
         flex-direction: column;
         justify-content: space-between;

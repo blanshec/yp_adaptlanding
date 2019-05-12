@@ -7,7 +7,8 @@
 
     align-self: center;
 }
-@media screen and (min-width: 1439px) {
+
+@media screen and (max-width: 1441px) {
     .lead__subtitle {
         margin: 48px auto 0;
         max-width: 90%;
@@ -15,7 +16,8 @@
         line-height: 2.25rem;
     }
 }
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1025px) {
     .lead__subtitle {
         margin: 48px auto 0;
         max-width: 90%;
@@ -23,7 +25,8 @@
         line-height: 2.25rem;
     }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 769px) {
     .lead__subtitle {
         margin: 48px auto 0;
         max-width: 90%;
@@ -31,15 +34,8 @@
         line-height: 2.25rem;
     }
 }
-@media screen and (max-width: 375px) {
-    .lead__subtitle {
-        margin: 8px auto 0;
-        max-width: 90%;
-        font-size: 1rem;
-        line-height: 1.4375rem;
-    }
-}
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 426px) {
     .lead__subtitle {
         margin: 8px auto 0;
         max-width: 90%;

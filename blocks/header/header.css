@@ -31,14 +31,14 @@
         max-width: 90%;
     }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 426px) {
     .header {
         max-width: 90%;
     }
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 376px) {
     .header {
-        max-width: 90%;
         padding:  16px 0 0;
+        max-width: 90%;
     }
 }

@@ -1,6 +1,21 @@
 .video__image {
     width: 100%;
 }
+@media screen and (max-width: 1441px) {
+    .video__image {
+        height: 323px;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .video__image {
+        height: 288px;
+    }
+}
+@media screen and (max-width: 769px) {
+    .video__image {
+        height: 200px;
+    }
+}
 @media screen and (max-width: 321px) {
     .video__image {
         height: 192px;

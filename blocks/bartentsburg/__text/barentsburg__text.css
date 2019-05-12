@@ -10,6 +10,14 @@
 
     margin: 0 120px 0 0;
 }
+@media screen and (max-width: 376px) {
+    .barentsburg__text {
+        font-size: 1.125rem;
+        line-height: 1.875rem;
+        width: 90%;
+        margin: 0 auto 0;
+    }
+}
 @media screen and (max-width: 321px) {
     .barentsburg__text {
         font-size: 1.125rem;

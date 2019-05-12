@@ -7,6 +7,12 @@
 
     color: #FFFFFF;
 }
+@media screen and (max-width: 376px) {
+    .footer__copyright {
+        text-align: left;
+        margin: 48px 0 0;
+    }
+}
 @media screen and (max-width: 321px) {
     .footer__copyright {
         text-align: left;
