@@ -1,19 +1,31 @@
 .cover__container {
     position: absolute;
-    top: 274px;
-    left: 38px;
     text-decoration: none;
 
-    width: 1095px;
+    max-width: 1095px;
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 1441px) {
     .cover__container {
         width: 100%;
-        top: 64px;
+        top: 274px;
+        left: 38px;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .cover__container {
+        width: 100%;
+        top: 211px;
         left: 0;
     }
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 769px) {
+    .cover__container {
+        width: 100%;
+        top: 165px;
+        left: 0;
+    }
+}
+@media screen and (max-width: 426px) {
     .cover__container {
         width: 100%;
         top: 64px;

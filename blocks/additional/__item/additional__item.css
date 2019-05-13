@@ -1,18 +1,8 @@
-.additional__item {
-    width: 284px;
-    position: relative;
-    overflow: hidden;
-}
+.additional__item{width:284px;position:relative;overflow:hidden;}
 @media screen and (max-width: 769px) {
-    .additional__item {
-        margin: 8px;
-    }
+.additional__item{margin:8px;}
 }
 @media screen and (max-width: 426px) {
-    .additional__item {
-        margin: 0 auto 24px;
-    }
-    .additional__item:last-child {
-        margin: 0 auto 0;
-    }
+.additional__item{margin:0 auto 24px;}
+.additional__item:last-child{margin:0 auto;}
 }

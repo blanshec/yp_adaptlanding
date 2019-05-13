@@ -1,34 +1,18 @@
-@import url(../content-title/content-title.css);
-@import url(../content-subtitle/content-subtitile.css);
-
-@import url(./__container/video__containter.css);
-@import url(./__duration/video__duration.css);
-@import url(./__icon/video__icon.css);
-@import url(./__item/video__item.css);
-@import url(./__subtitle/video__subtitle.css);
-@import url(./__title/video__title.css);
-@import url(./__tint/video__tint.css);
-@import url(./__image/video__image.css);
-@import url(./__header/video__header.css);
-
-.video {
-    display: flex;
-    flex-direction: column;
-
-    width: 1184px;
-    margin: 102px auto 0;
-}
-
+@import "../content-title/content-title.css";
+@import "../content-subtitle/content-subtitile.css";
+@import "./__container/video__containter.css";
+@import "./__duration/video__duration.css";
+@import "./__icon/video__icon.css";
+@import "./__item/video__item.css";
+@import "./__subtitle/video__subtitle.css";
+@import "./__title/video__title.css";
+@import "./__tint/video__tint.css";
+@import "./__image/video__image.css";
+@import "./__header/video__header.css";
+.video{display:flex;flex-direction:column;width:1184px;margin:102px auto 0;}
 @media screen and (max-width: 769px) {
-    .video {
-        width: 90%;
-        margin: 102px auto 0;
-    }
+.video{width:90%;margin:102px auto 0;}
 }
-
 @media screen and (max-width: 426px) {
-    .video {
-        width: 100%;
-        margin: 64px auto 0;
-    }
+.video{width:100%;margin:64px auto 0;}
 }

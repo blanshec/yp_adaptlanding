@@ -1,28 +1,7 @@
-.additional__text {
-    position: absolute;
-    bottom: 30px;
-    left: 18px;
-
-    width: 248px;
-
-    margin: 0;
-
-    font-weight: lighter;
-    font-family: Inter;
-    font-size: 14px;
-    line-height: 20px;
-
-    color: #FFFFFF;
-}
+.additional__text{position:absolute;bottom:30px;left:18px;width:248px;margin:0;font-weight:lighter;font-family:Inter;font-size:14px;line-height:20px;color:#FFF;}
 @media screen and (max-width: 376px) {
-    .additional__text {
-        font-size: 0.875rem;
-        line-height: 1.25rem;
-    }
+.additional__text{font-size:.875rem;line-height:1.25rem;}
 }
 @media screen and (max-width: 321px) {
-    .additional__text {
-        font-size: 0.875rem;
-        line-height: 1.25rem;
-    }
+.additional__text{font-size:.875rem;line-height:1.25rem;}
 }
