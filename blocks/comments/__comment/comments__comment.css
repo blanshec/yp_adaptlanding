@@ -1,6 +1,7 @@
 .comments__comment {
     width: calc((100%-38px)/3);
 }
+
 @media screen and (max-width: 321px) {
     .comments__comment {
         width: 90%;

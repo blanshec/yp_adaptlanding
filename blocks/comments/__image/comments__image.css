@@ -1,6 +1,7 @@
 .comments__image {
     margin: 0 0 42px 0;
 }
+
 @media screen and (max-width: 321px) {
     .comments__image {
         order: 1;

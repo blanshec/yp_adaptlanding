@@ -1,54 +1,54 @@
 .video__header {
-    display:flex;
-    flex-direction:column;
-    justify-content:space-evenly;
-    position:absolute;
-    }
-    
-    @media screen and (max-width: 1441px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+@media screen and (max-width: 1441px) {
     .video__header {
-    margin:0 auto;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-evenly;
-    position:absolute;
-    bottom:30px;
-    left:30px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
     }
-    }
-    
-    @media screen and (max-width: 1025px) {
+}
+
+@media screen and (max-width: 1025px) {
     .video__header {
-    margin:0 auto;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-evenly;
-    position:absolute;
-    bottom:30px;
-    left:35px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+        bottom: 30px;
+        left: 35px;
     }
-    }
-    
-    @media screen and (max-width: 769px) {
+}
+
+@media screen and (max-width: 769px) {
     .video__header {
-    margin:0 auto;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-evenly;
-    position:absolute;
-    bottom:24px;
-    left:24px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+        bottom: 24px;
+        left: 24px;
     }
-    }
-    
-    @media screen and (max-width: 321px) {
+}
+
+@media screen and (max-width: 321px) {
     .video__header {
-    display:flex;
-    flex-direction:column;
-    justify-content:space-evenly;
-    position:absolute;
-    margin:0 auto;
-    bottom:16px;
-    left:16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+        margin: 0 auto;
+        bottom: 16px;
+        left: 16px;
     }
-    }
+}

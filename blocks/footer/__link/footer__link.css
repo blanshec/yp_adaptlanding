@@ -1,7 +1,22 @@
-.footer__link{font-family:Inter;font-weight:lighter;font-size:1.5em;line-height:2.5em;color:#FFF;margin:0 18px 0 0;}
-@media screen and (max-width: 769px) {
-.footer__link{font-size:1rem;line-height:1.6875rem;}
+.footer__link {
+    font-family: Inter;
+    font-weight: lighter;
+    font-size: 1.5em;
+    line-height: 2.5em;
+    color: #FFF;
+    margin: 0 18px 0 0;
 }
+
+@media screen and (max-width: 769px) {
+    .footer__link {
+        font-size: 1rem;
+        line-height: 1.6875rem;
+    }
+}
+
 @media screen and (max-width: 426px) {
-.footer__link{font-size:.875rem;line-height:1.25rem;}
+    .footer__link {
+        font-size: .875rem;
+        line-height: 1.25rem;
+    }
 }

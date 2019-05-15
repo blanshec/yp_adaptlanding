@@ -6,6 +6,7 @@
     flex-direction: column;
     align-content: center;
 }
+
 @media screen and (max-width: 321px) {
     .emblem__item {
         margin: 0 auto 56px;

@@ -9,6 +9,7 @@
         flex-direction: column;
     }
 }
+
 @media screen and (max-width: 321px) {
     .comments__container {
         flex-direction: column;

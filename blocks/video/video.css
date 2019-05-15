@@ -9,10 +9,24 @@
 @import "./__tint/video__tint.css";
 @import "./__image/video__image.css";
 @import "./__header/video__header.css";
-.video{display:flex;flex-direction:column;width:1184px;margin:102px auto 0;}
-@media screen and (max-width: 769px) {
-.video{width:90%;margin:102px auto 0;}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    width: 1184px;
+    margin: 102px auto 0;
 }
+
+@media screen and (max-width: 769px) {
+    .video {
+        width: 90%;
+        margin: 102px auto 0;
+    }
+}
+
 @media screen and (max-width: 426px) {
-.video{width:100%;margin:64px auto 0;}
+    .video {
+        width: 100%;
+        margin: 64px auto 0;
+    }
 }

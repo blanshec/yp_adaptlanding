@@ -1,11 +1,7 @@
 @import "./__contianer/cover__container.css";
-
 @import "./__title/cover__title.css";
-
 @import "./__subtitle/cover__subtitle.css";
-
 @import "./__tint/cover__tint.css";
-
 @import "./__image/cover__image.css";
 
 .cover {
@@ -22,6 +18,7 @@
         margin: 102px auto 0;
     }
 }
+
 @media screen and (max-width: 1025px) {
     .cover {
         width: 100%;
@@ -29,6 +26,7 @@
         margin: 102px auto 0;
     }
 }
+
 @media screen and (max-width: 769px) {
     .cover {
         width: 100%;

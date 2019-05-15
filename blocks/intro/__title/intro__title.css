@@ -1,1 +1,19 @@
-.intro__title{font-family:Inter;color:#fff;margin:0}@media screen and (max-width:1441px){.intro__title{font-size:3.375rem;line-height:3.6875rem}}@media screen and (max-width:421px){.intro__title{line-height:1.1;font-size:2em}}
+.intro__title {
+    font-family: Inter;
+    color: #fff;
+    margin: 0
+}
+
+@media screen and (max-width:1441px) {
+    .intro__title {
+        font-size: 3.375rem;
+        line-height: 3.6875rem
+    }
+}
+
+@media screen and (max-width:421px) {
+    .intro__title {
+        line-height: 1.1;
+        font-size: 2em
+    }
+}
