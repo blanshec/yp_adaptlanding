@@ -8,12 +8,19 @@
     display: flex;
     flex-direction: column;
 
-    max-width: 1184px;
+    max-width: 90%;
 
     margin: 82px auto 0;
 }
+@media screen and (max-width: 769px) {
+    .emblem {
+        width: 94%;
+        margin: 102px auto 0;
 
-@media screen and (max-width: 321px) {
+        align-content: center;
+    }
+}
+@media screen and (max-width: 376px) {
     .emblem {
         width: 100%;
         margin: 64px auto 0;

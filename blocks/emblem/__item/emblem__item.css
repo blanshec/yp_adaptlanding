@@ -7,7 +7,21 @@
     align-content: center;
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 1025px) {
+    .emblem__item {
+        width: 160px;
+        height: 286px;
+        margin: 0 0 56px 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .emblem__item {
+        margin: 0 0 56px 0;
+    }
+}
+
+@media screen and (max-width: 376px) {
     .emblem__item {
         margin: 0 auto 56px;
     }

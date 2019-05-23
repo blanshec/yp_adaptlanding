@@ -1,0 +1,25 @@
+@import "./_theme/_url-heading/content-website_url-heading.css";
+@import "./_theme/_url/content-website_url.css";
+
+.content-website {
+    /* max-height: 45px; */
+    margin: 0 0 60px;
+    grid-area: website;
+    max-width: 343px;
+}
+
+@media screen and (max-width: 769px) {
+    .content-website {
+        height: 100%;
+        margin: 0 0 32px;
+        width: 94%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .content-website {
+        height: 100%;
+        margin: 0 auto 32px;
+        width: 90%;
+    }
+}

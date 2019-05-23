@@ -2,15 +2,16 @@
     width: 284px;
     position: relative;
     overflow: hidden;
+    margin: 8px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1025px) {
     .additional__item {
-        margin: 8px;
+        margin: 5px;
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 376px) {
     .additional__item {
         margin: 0 auto 24px;
     }

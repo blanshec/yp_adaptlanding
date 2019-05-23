@@ -1,14 +1,13 @@
 .comments__image {
     margin: 0 0 42px 0;
+    width: 97px;
+    height: 97px;
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 769px) {
     .comments__image {
         order: 1;
         margin: 0 0 17px;
-
-        width: 97px;
-        height: 97px;
 
         align-self: center;
     }

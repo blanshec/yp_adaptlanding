@@ -72,9 +72,9 @@
         <section class="places">
             <div class="places__place">
                 <h2 class="places__title">Куршская коса</h2>
-                <div class="content__website">
-                    <p class="content__website_url-heading">URL</p>
-                    <a class="content__website_url link" href="https://www.park-kosa.ru">park-kosa.ru</a>
+                <div class="content-website">
+                    <p class="content-website_url-heading">URL</p>
+                    <a class="content-website_url link" href="https://www.park-kosa.ru">park-kosa.ru</a>
                 </div>
                 <img class="places__image" src="images/places__place/kur-kosa.png" alt="Куршская коса">
                 <div class="places__content">
@@ -95,9 +95,9 @@
             </div>
             <div class="places__place">
                 <h2 class="places__title">Кольский</h2>
-                <div class="content__website">
-                    <p class="content__website_url-heading">URL</p>
-                    <a class="content__website_url link"
+                <div class="content-website">
+                    <p class="content-website_url-heading">URL</p>
+                    <a class="content-website_url link"
                         href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
                         Georaphic</a>
                 </div>
@@ -119,9 +119,9 @@
             </div>
             <div class="places__place">
                 <h2 class="places__title">Алтай</h2>
-                <div class="content__website">
-                    <p class="content__website_url-heading">URL</p>
-                    <a class="content__website_url link"
+                <div class="content-website">
+                    <p class="content-website_url-heading">URL</p>
+                    <a class="content-website_url link"
                         href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
                 </div>
                 <img class="places__image" src="images/places__place/altai.png" alt="Алтай">
@@ -142,9 +142,9 @@
             </div>
             <div class="places__place">
                 <h2 class="places__title">Зимний Байкал</h2>
-                <div class="content__website">
-                    <p class="content__website_url-heading">URL</p>
-                    <a class="content__website_url link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+                <div class="content-website">
+                    <p class="content-website_url-heading">URL</p>
+                    <a class="content-website_url link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
                 </div>
                 <img class="places__image" src="images/places__place/baikal.png" alt="Зимний Байкал">
                 <div class="places__content">
@@ -163,9 +163,9 @@
             </div>
             <div class="places__place">
                 <h2 class="places__title">Карелия</h2>
-                <div class="content__website">
-                    <p class="content__website_url-heading">URL</p>
-                    <a class="content__website_url link" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
+                <div class="content-website">
+                    <p class="content-website_url-heading">URL</p>
+                    <a class="content-website_url link" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
                 </div>
                 <img class="places__image" src="images/places__place/karelia.png" alt="Карелия">
                 <div class="places__content">
@@ -359,9 +359,9 @@
                     Арктика и соседство с Норвегией — мало кто знает о жизни
                     самого западного российского посёлка, который находится на Шпицбергене.
                 </p>
-                <div class="content__website">
-                    <p class="content__website_url-heading">URL</p>
-                    <a class="content__website_url link"
+                <div class="content-website">
+                    <p class="content-website_url-heading">URL</p>
+                    <a class="content-website_url link"
                         href="https://meduza.io/feature/2016/03/02/umeret-ili-roditsya-zdes-prakticheski-nevozmozhno">Умереть
                         или родиться здесь практически невозможно</a>
                 </div>
@@ -384,33 +384,19 @@
 </html>
 
 <!--
-    Хорошо сверстанная страница: используются сематически верные тэги, аккуратная разметка, 
+    Хорошо сверстанная страница: используются сематически верные тэги, аккуратная разметка,
     правильно используется БЭМ (есть лишь небольшие недочеты в использовании),
     есть даже реиспользуемые блоки
 
     Нужно исправить:
-    1. content__website -- элемент website блока content, он может использоваться только внутри блока content
-        а сейчас используется в нескольких блоках
-        очень хорошо, что есть реиспользуемость, но в таком случае это нужно сделать блоком
-        верно я понимаю, что он сейчас шрифт определяет?
-        тогда можно дать название вроде text и, при необходимости (я чисто абстрактно примеры привожу), добавить модификаторы text_header, text_link и пр
-    2.  модификаторы не должны использоваться отдельно от соответсвующего элемента/блока
-        ваш вариант с intro__text-wrapper_bold не соответствует БЭМ
-        по идее элементы с классом intro__text-wrapper_bold должны иметь и класс intro__text-wrapper,
-        intro__text-wrapper задает все нужные для текста стили, а intro__text-wrapper_bold только делает полужирным
-        соответсвенно, оборачивающий контейнер не должен называться intro__text-wrapper, можно, например, назвать его intro__text-wrapper-wrapper
-        Я бы в intro__text-wrapper-wrapper поместила стили связанные с положением, а вот настройки шрифта в intro__text-wrapper уже
-    3.  не хватает файлов со шрифтами в fonts/Inter, в fonts/Inter/inter.css есть ссылки на файлы, которых нет в проекте
-        (из-за того, что не все шрифты подключились, я не могу проверить соответсвие текстов макету, сделаю это на следующей итерации)
-    4.  в макете шрифты заданы в px, зачем вы используете em? (размеры шрифтов в нескольких местах не совпадают сейчас)
-    5.  верхний отступ у lead на 320 не соответствует макету
-        а откуда взялось условие @media screen and (max-width: 426px) ? в макете нет ничего про 426px
-    6.  слишком большие отступы между текстовыми элементами блока places на маленьких экранах
-    7.  очень много несоответсвий шрифтов макету: не совпадают размеры и font-family,
-           проверьте, пожалуйста, это для всей страницы (не забудьте, что на разных разрешениях экрана размеры шрифта могут отличаться)
-
-
-    Можно лучше:
-        1.   пожалуйста, пишите каждое css-свойство на новой строке
-            сложно читать код, когда всё в одной строчке
+    1.  подключается файл, которого нет:
+        @import "../blocks/content/content.css";
+    2. на мобильниках размер шрифта lead__title не соответствует макету
+    3. font-weight intro__title не соответсвует макету
+    3. отступы вокруг intro__text-wrapper, в котором идет автор тескта, не соответсвуют макету
+    4. в intro__text-wrapper, который ul, межстрочный интервал не соответсвует макету
+    5. расстояния между photo-grid__item на мобильниках не соответсвуют макету
+    6. шрифт places__paragraph не соответсвует макету
+    7. footer не соответсвует макету (посмотрите на разных разрешениях, как он выглядит)
+    8. слишком кучно располодены эмлемы, на макете между ними больше свободного места
 -->

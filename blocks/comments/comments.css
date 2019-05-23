@@ -7,42 +7,39 @@
 .comments {
     display: flex;
     flex-direction: column;
-
-    width: 1184px;
-    margin: 100px auto 0;
 }
 
-@media screen and (min-width: 1439px) {
+@media screen and (max-width: 1441px) {
     .comments {
-        width: 1184px;
+        width: 90%;
         margin: 100px auto 0;
     }
 }
 
 @media screen and (max-width: 1025px) {
     .comments {
-        width: 928px;
+        width: 90%;
         margin: 100px auto 0;
     }
 }
 
 @media screen and (max-width: 769px) {
     .comments {
-        max-width: 640px;
+        max-width: 94%;
         margin: 100px auto 0;
     }
 }
 
 @media screen and (max-width: 376px) {
     .comments {
-        max-width: 343px;
+        max-width: 90%;
         margin: 100px auto 0;
     }
 }
 
 @media screen and (max-width: 321px) {
     .comments {
-        max-width: 100%;
+        max-width: 90%;
         margin: 64px auto 0;
     }
 }

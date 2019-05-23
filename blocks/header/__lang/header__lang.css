@@ -1,7 +1,7 @@
 @import url(./_theme/header__lang_selected.css);
 
 .header__lang {
-    font-weight: lighter;
+    font-weight: normal;
     font-family: Inter;
     font-size: 1.500em;
     line-height: 1.438em;

@@ -1,22 +1,25 @@
 @import "./__image/places__image.css";
-
 @import "./__paragraph/places__paragraph.css";
-
 @import "./__place/places__place.css";
-
 @import "./__title/places__title.css";
 
 .places {
     margin: 80px auto 0;
-    max-width: 985px;
+    max-width: 984px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1025px) {
     .places {
         width: 90%;
+        margin: 92px auto 0;
+    }
+}
+@media screen and (max-width: 769px) {
+    .places {
+        width: 94%;
         margin: 92px auto 0;
     }
 }
