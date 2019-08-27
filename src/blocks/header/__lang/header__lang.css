@@ -1,0 +1,21 @@
+@import url(./_theme/header__lang_selected.css);
+
+.header__lang {
+    font-weight: normal;
+    font-family: Inter;
+    font-size: 1.500em;
+    line-height: 1.438em;
+    text-align: right;
+
+    text-decoration: none;
+
+
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 321px) {
+    .header__lang {
+        font-size: 1.125em;
+        line-height: 1.063em;
+    }
+}

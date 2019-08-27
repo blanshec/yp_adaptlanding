@@ -1,0 +1,29 @@
+@import "./__container/additional__container.css";
+@import "./__item/additional__item.css";
+@import "./__text/additional__text.css";
+@import "./__tint/additional__tint.css";
+@import "./__title/additional__title.css";
+
+.additional {
+    margin: 100px auto 0;
+    max-width: 1184px;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 1025px) {
+    .additional {
+        max-width: 90%;
+    }
+}
+@media screen and (max-width: 769px) {
+    .additional {
+        max-width: 94%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .additional {
+        max-width: 100%;
+        margin: 64px auto 0;
+    }
+}

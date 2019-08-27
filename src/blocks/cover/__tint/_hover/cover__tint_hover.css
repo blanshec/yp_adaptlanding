@@ -1,0 +1,3 @@
+.cover__tint:hover::before {
+    opacity: .8;
+}

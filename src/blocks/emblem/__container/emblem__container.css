@@ -1,0 +1,19 @@
+.emblem__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: 82px 0 0;
+}
+
+@media screen and (max-width: 769px) {
+    .emblem__container {
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 376px) {
+    .emblem__container {
+        margin: 32px 0 0;
+    }
+}

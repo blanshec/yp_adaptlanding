@@ -1,0 +1,31 @@
+@import "../content-title/content-title.css";
+@import "../content-subtitle/content-subtitile.css";
+@import "./__container/video__containter.css";
+@import "./__duration/video__duration.css";
+@import "./__icon/video__icon.css";
+@import "./__item/video__item.css";
+@import "./__subtitle/video__subtitle.css";
+@import "./__title/video__title.css";
+@import "./__tint/video__tint.css";
+@import "./__image/video__image.css";
+@import "./__header/video__header.css";
+
+.video {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 102px auto 0;
+}
+
+@media screen and (max-width: 769px) {
+    .video {
+        width: 94%;
+        margin: 64px auto 0;
+    }
+}
+@media screen and (max-width: 376px) {
+    .video {
+        width: 100%;
+        margin: 64px auto 0;
+    }
+}

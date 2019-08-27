@@ -1,0 +1,34 @@
+.cover__container {
+    position: absolute;
+    text-decoration: none;
+
+    max-width: 1095px;
+}
+@media screen and (max-width: 1441px) {
+    .cover__container {
+        width: 100%;
+        top: 274px;
+        left: 38px;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .cover__container {
+        width: 100%;
+        top: 211px;
+        left: 0;
+    }
+}
+@media screen and (max-width: 769px) {
+    .cover__container {
+        width: 100%;
+        top: 165px;
+        left: 0;
+    }
+}
+@media screen and (max-width: 426px) {
+    .cover__container {
+        width: 100%;
+        top: 64px;
+        left: 0;
+    }
+}
